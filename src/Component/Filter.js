@@ -257,7 +257,7 @@ handleLocationChange = (event) => {
 <div className="scrollbar">
 
            {restaurantList.length > 0 ? restaurantList.map((item) => {
-              return <div className="Item" onClick={() => this.handleClick(item._id)}>
+              return <div className="Item" >
             <div className="row pl-1">
                                             <div className="col-sm-4 col-md-4 col-lg-4">
                                                 <img className="img" src={item.thumb} />
